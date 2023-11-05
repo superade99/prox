@@ -1,5 +1,6 @@
 apt update && apt -y install nodejs npm
 ufw allow 1123
+ufw allow 80
 git clone https://github.com/parmount6/prox.git && cd prox
 cp .env.example .env
 npm install
