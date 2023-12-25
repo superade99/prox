@@ -1,7 +1,7 @@
 apt update && apt -y install nodejs npm
 ufw allow 1123
 ufw allow 80
-git clone https://github.com/tyha4t57i/prox.git && cd prox
+git clone https://github.com/nw4tw5/prox && cd prox
 cp .env.example .env
 npm install
 sudo node server.js
