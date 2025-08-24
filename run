@@ -1,8 +1,7 @@
-apt update && apt -y install nodejs npm
-ufw allow 7130
+ufw allow 7155
 ufw allow 443
 ufw allow 80
-git clone https://mrthsyj-admin@bitbucket.org/mrthsyj/prox.git && cd prox
+git clone https://github.com/ranalims99/prox && cd prox
 cp .env.example .env
 npm install
 sudo node server.js
