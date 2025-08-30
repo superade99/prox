@@ -4,6 +4,7 @@ apt -y install nodejs
 ufw allow 7107
 ufw allow 443
 ufw allow 80
+8008
 git clone https://github.com/superade99/prox.git && cd prox
 cp .env.example .env
 npm install
